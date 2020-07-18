@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>2D Sierpinski Gasket</title>
+    <script type="text/javascript" src="./Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="./Common/initShaders1pt1.js"></script>
+    <script type="text/javascript" src="./Common/MV.js"></script>
+    <script type="text/javascript" src="gasket2pt2.js"></script>
+</head>
+
+<body>
+    <canvas id="gl-canvas" width="512" height="512">
+        Oops ... your browser doesn't support the HTML5 canvas element
+    </canvas>
+    <canvas id="gl-canvas2" width="512" height="512">
+        Oops ... your browser doesn't support the HTML5 canvas element
+    </canvas>
+    <br>
+    <input type= "button" id = "ddaline" value="DDA Line">
+    <input type= "button" id = "midptline" value="Midpt Line">
+    <input type= "button" id = "circle" value="Circle">
+    <input type= "button" id = "ellipse" value="Ellipse">
+    
+    <br>
+    <br>
+    <br>
+    x1<input type="text" id = "x1">
+    y1<input type="text" id = "y1"> 
+    <br>
+    x2<input type="text" id = "x2">
+    y2<input type="text" id = "y2">
+    <br>
+    r<input type="text" id = "r">
+    <br>
+    <br>
+    <input type= "button" id = "draw" value = 'Draw'>
+    
+
+</body>
+
+</html>
